@@ -1,0 +1,20 @@
+{
+  "name": "react-ak-css-spinners",
+  "version": "1.0.0",
+  "description": "react spinners library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alokkulkarni/react-ak-css-spinners.git"
+  },
+  "keywords": ["react", "css", "spinners"],
+  "author": "Alok Kulkarni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alokkulkarni/react-ak-css-spinners/issues"
+  },
+  "homepage": "https://github.com/alokkulkarni/react-ak-css-spinners#readme"
+}
