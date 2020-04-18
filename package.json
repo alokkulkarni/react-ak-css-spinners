@@ -4,6 +4,8 @@
   "description": "react spinners library",
   "main": "index.js",
   "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "rollup -c",
     "lint": "eslint '**/*.js'",
     "lint:fix": "prettier-eslint --write $PWD/'src/**/*.{js}' $PWD/'*.{js}'"
   },
@@ -34,6 +36,9 @@
   },
   "homepage": "https://github.com/alokkulkarni/react-ak-css-spinners#readme",
   "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
     "eslint": "^6.8.0",
     "eslint-config-standard": "^14.1.1",
     "eslint-plugin-import": "^2.20.2",
@@ -45,7 +50,10 @@
     "lint-staged": "^10.1.5",
     "prettier-eslint": "^9.0.1",
     "prettier-eslint-cli": "^5.0.0",
+    "rimraf": "^3.0.2",
     "rollup": "^2.6.1",
-    "rollup-plugin-node-resolve": "^5.2.0"
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^5.3.0"
   }
 }
