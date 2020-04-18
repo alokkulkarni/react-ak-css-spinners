@@ -44,6 +44,8 @@
     "husky": "^4.2.5",
     "lint-staged": "^10.1.5",
     "prettier-eslint": "^9.0.1",
-    "prettier-eslint-cli": "^5.0.0"
+    "prettier-eslint-cli": "^5.0.0",
+    "rollup": "^2.6.1",
+    "rollup-plugin-node-resolve": "^5.2.0"
   }
 }
